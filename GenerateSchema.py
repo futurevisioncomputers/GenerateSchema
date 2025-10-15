@@ -9,7 +9,7 @@ st.write("Easily create Google & AI-friendly JSON-LD schema for your institute�
 
 # ---- Institute Info ----
 st.header("🏫 Institute Information")
-inst_name = st.text_input("Institute Name", "Future Computer Institute")
+inst_name = st.text_input("Institute Name", "Future Vision Computer Institute")
 inst_url = st.text_input("Website URL", "https://futurevisioncomputers.com/")
 inst_logo = st.text_input("Logo URL", "https://futurevisioncomputers.com/wp-content/uploads/2024/07/fv-logo-final-current.png")
 inst_phone = st.text_input("Phone Number", "+91-9825771678")
@@ -126,4 +126,5 @@ if st.button("🚀 Generate JSON-LD Schema"):
     st.download_button("💾 Download Schema as JSON", json_ld, file_name="course_schema.json")
 
 st.info("💡 Tip: Copy and paste the JSON-LD script into the <head> or bottom of your course webpage.")
+
 
