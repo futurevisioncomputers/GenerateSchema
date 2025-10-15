@@ -9,14 +9,14 @@ st.write("Easily create Google & AI-friendly JSON-LD schema for your institute�
 
 # ---- Institute Info ----
 st.header("🏫 Institute Information")
-inst_name = st.text_input("Institute Name", "Siddharth Computer Institute")
-inst_url = st.text_input("Website URL", "https://yourwebsite.com")
-inst_logo = st.text_input("Logo URL", "https://yourwebsite.com/logo.png")
-inst_phone = st.text_input("Phone Number", "+91-9876543210")
-inst_street = st.text_input("Street Address", "123 Main Road, Navrangpura")
-inst_city = st.text_input("City", "Ahmedabad")
+inst_name = st.text_input("Institute Name", "Future Computer Institute")
+inst_url = st.text_input("Website URL", "https://futurevisioncomputers.com/")
+inst_logo = st.text_input("Logo URL", "https://futurevisioncomputers.com/wp-content/uploads/2024/07/fv-logo-final-current.png")
+inst_phone = st.text_input("Phone Number", "+91-9825771678")
+inst_street = st.text_input("Street Address", "g-40, Navmanglam Complex, Citylight")
+inst_city = st.text_input("City", "Surat")
 inst_state = st.text_input("State", "Gujarat")
-inst_pin = st.text_input("Postal Code", "380009")
+inst_pin = st.text_input("Postal Code", "395007")
 inst_country = st.text_input("Country Code", "IN")
 inst_social = st.text_area("Social Links (comma-separated)", 
                            "https://facebook.com/siddharthcomputers, https://instagram.com/siddharthcomputers")
@@ -126,3 +126,4 @@ if st.button("🚀 Generate JSON-LD Schema"):
     st.download_button("💾 Download Schema as JSON", json_ld, file_name="course_schema.json")
 
 st.info("💡 Tip: Copy and paste the JSON-LD script into the <head> or bottom of your course webpage.")
+
